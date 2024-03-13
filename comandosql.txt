@@ -1,8 +1,6 @@
-INSERT INTO Books (genre) VALUES ("Adventure")
-INSERT INTO Books (published_year) VALUES (1864)
-INSERT INTO Books (isbn ) VALUES (1234567890123)
-INSERT INTO Books (price ) VALUES (12.99)
-INSERT INTO Books (rating ) VALUES (4.5)
-INSERT INTO Books (stock_count) VALUES (10)
-INSERT INTO Books (publisher) VALUES ("Verne Publishing")
-INSERT INTO Books (numofpages) VALUES (350)
+UPDATE Books SET price = 12.99 WHERE book_id = 2
+
+
+UPDATE Books SET stock_count = 4 WHERE book_id = 2
+
+
