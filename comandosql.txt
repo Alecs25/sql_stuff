@@ -1,6 +1,1 @@
-UPDATE Books SET price = 12.99 WHERE book_id = 2
-
-
-UPDATE Books SET stock_count = 4 WHERE book_id = 2
-
-
+GRANT SELECT, UPDATE ON Books TO "martin"@"localhost"
