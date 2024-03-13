@@ -1,5 +1,10 @@
-BEGIN TRANSACTION;
-SAVEPOINT SP1;
-DELETE FROM Books WHERE bookid = 103;
-ROLLBACK TO SP1;
-COMMIT;
+1. select *  FROM tested WHERE c5 = "female" AND c6 > 30;
+
+
+2. select avg(c6) from tested WHERE c2 = 0
+
+3. select *  from tested WHERE  c9 < 50 AND c9 > 20 AND c12 = "C"
+
+4. select * from tested WHERE c2 = 1 and c3 = 1
+
+5. select * from tested WHERE c12 = "C"  and c10 > 75
